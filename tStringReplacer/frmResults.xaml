@@ -1,0 +1,57 @@
+﻿<Window 
+    x:Uid="frmResultsWindow" 
+    x:Class="MultipleTextEditor.frmResults"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Результаты операции" 
+    MinHeight="480" 
+    MinWidth="640" 
+    Height="Auto"
+    Width="Auto"
+    Loaded="Window_Loaded" 
+    WindowStartupLocation="CenterScreen" 
+    WindowStyle="SingleBorderWindow"
+    ShowInTaskbar="True">
+    <Grid 
+        x:Uid="Grid_1">
+        <Grid.RowDefinitions>
+            <RowDefinition 
+                x:Uid="RowDefinition_1" 
+                Height="50"></RowDefinition>
+            <RowDefinition 
+                x:Uid="RowDefinition_2"></RowDefinition>
+            <RowDefinition 
+                x:Uid="RowDefinition_3" 
+                Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Button
+            x:Uid="Save" 
+            Name="Save"
+            Grid.Row="0"
+            Content="Сохранить лог"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Center"
+            Padding="5,5,5,5"
+            Margin="10" 
+            Click="Save_Click"></Button>
+        <TextBox
+            x:Uid="TextResults" 
+            Grid.Row="1"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Margin="10,10,10,10" 
+            Name="TextResults" 
+            TextWrapping="Wrap" 
+            VerticalScrollBarVisibility="Auto" 
+            HorizontalScrollBarVisibility="Auto" 
+            FontSize="14" />
+        <Button
+            x:Uid="OK" Name="OK"
+            Grid.Row="2"
+            Content="OK"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Padding="20,5,20,5" 
+            Click="OK_Click"></Button>
+    </Grid>
+</Window>

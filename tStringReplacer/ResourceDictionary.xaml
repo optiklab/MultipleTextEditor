@@ -1,0 +1,166 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- UI strings -->
+    <sys:String x:Key="StartButtonText">Старт</sys:String>
+    <sys:String x:Key="StartButtonToolTip">Кликните для начала операции.</sys:String>
+    <sys:String x:Key="AddButton">Вставить</sys:String>
+    <sys:String x:Key="Cancel">Отмена</sys:String>    	
+    <sys:String x:Key="ChooseComboBox">Выберите операцию:</sys:String>
+    <sys:String x:Key="AddOperationComboBoxToolTip">Выберите операцию над текстом.</sys:String>
+    <sys:String x:Key="AddOperationLabelHint">Здесь Вы можете выбрать операцию, которую необходимо выполнить над текстом (из файлов, папок или текстового поля, выбранных выше).</sys:String>
+    <sys:String x:Key="DefaultResults">Нет результатов для выбранной операции или результатом является пустой текст.</sys:String>
+    <sys:String x:Key="ErrorCantOpenDialog">Не могу открыть стандартный диалог операционной системы!</sys:String>
+    <sys:String x:Key="ErrorCantReadFile">Не могу прочитать файл {0}.</sys:String>
+    <sys:String x:Key="ErrorCantWriteFile">Не могу записать в файл {0}.</sys:String>
+    <sys:String x:Key="ErrorCommandParametersEmpty">Не все обязательные поля заполнены!</sys:String>
+    <sys:String x:Key="ErrorDestinyPathIsEmpty">Путь назначения пустой!</sys:String>
+    <sys:String x:Key="ErrorDirectoryAccess">Ошибка. Не могу получить доступ к папке {0}.</sys:String>
+    <sys:String x:Key="ErrorFilePath">Ошибка. Не могу получить доступ к файлу или папке!</sys:String>
+    <sys:String x:Key="ErrorFillParameters">Все параметры операции должны быть заполнены!</sys:String>
+    <sys:String x:Key="ErrorIndexWrong">Найденные индексы в тексте не верны!</sys:String>
+    <sys:String x:Key="ErrorMaskWrong">Маска не правильная!</sys:String>
+    <sys:String x:Key="ErrorNumericParameter">Численный параметр не правильный!</sys:String>
+    <sys:String x:Key="ErrorOutMemory">Не достаточно памяти!</sys:String>
+    <sys:String x:Key="ErrorSecurity">Ошибка. Не могу получить доступ к файлу или папке из-за настроек безопасности. Обратитесь к администратору.</sys:String>
+    <sys:String x:Key="ErrorSourcePathIsEmpty">Путь к источнику пустой!</sys:String>
+    <sys:String x:Key="ErrorSystem">Произошла системная ошибка в течение работы с файлом!</sys:String>
+    <sys:String x:Key="FileDialogSettings">Любой тип|*.*</sys:String>
+    <sys:String x:Key="RemoveButton">Удалить</sys:String>
+    <sys:String x:Key="ReplaceButton">Заменить</sys:String>
+    <sys:String x:Key="ResultFile">--- Получение доступа к файлу {0}</sys:String>
+    <sys:String x:Key="ResultFolder">Получение доступа к папке {0}</sys:String>
+    <sys:String x:Key="ResultOfOperation">Результат операции:</sys:String>
+    <sys:String x:Key="ResultOperationCompleted">Операция завершена успешно!</sys:String>
+    <sys:String x:Key="Start">Старт</sys:String>
+    <sys:String x:Key="Step1WorkWithFile">Шаг 1. Выберите файл</sys:String>
+    <sys:String x:Key="Step1WorkWithFileHint1">Здесь Вы можете указать путь к файлу, из которого следует взять данные.</sys:String>
+    <sys:String x:Key="Step1WorkWithFileHint2">Не обязательное поле. Если поле не пустое, все результаты будут сохраняться в указанный файл.</sys:String>
+    <sys:String x:Key="Step1WorkWithFileText1">Укажите путь к файлу:</sys:String>
+    <sys:String x:Key="Step1WorkWithFileText2">Укажите файл назначения:</sys:String>
+    <sys:String x:Key="Step1WorkWithFolder">Шаг 1. Выберите папку</sys:String>
+    <sys:String x:Key="Step1WorkWithFolderHint1">Здесь Вы можете указать путь к папке, в которой необходимо искать файлы с данными.</sys:String>
+    <sys:String x:Key="Step1WorkWithFolderHint2">Маска указывается согласно правилам, принятым в ОС Windows. К примеру: мой текст*, файл?.txt</sys:String>
+    <sys:String x:Key="Step1WorkWithFolderHint3">Не обязательное поле. Если поле не пустое, все результаты будут сохраняться в указанной папке.</sys:String>
+    <sys:String x:Key="Step1WorkWithFolderText1">Укажите путь к папке:</sys:String>
+    <sys:String x:Key="Step1WorkWithFolderText2">Укажите маску для поиска файлов во всех подпапках:</sys:String>
+    <sys:String x:Key="Step1WorkWithFolderText3">Укажите папку назначения (должна существовать):</sys:String>
+    <sys:String x:Key="Step1WorkWithText">Шаг 1. Введите текст</sys:String>
+    <sys:String x:Key="PutTextExpanderToolTip">Кликните чтобы свернуть или развернуть окно.</sys:String>
+    <sys:String x:Key="PutTextBoxHint">Сюда Вы можете вставить текст, который необходимо изменить.</sys:String>
+    <sys:String x:Key="Step1WorkWithTextHint">Сюда Вы можете вставить текст, который необходимо изменить.</sys:String>
+    <sys:String x:Key="Step2">Шаг 2. Выберите операцию</sys:String>
+    <sys:String x:Key="Step2ExpanderToolTip">Кликните чтобы свернуть или развернуть окно.</sys:String>
+    <sys:String x:Key="TextToOperate">Строка для замены:</sys:String>
+    <sys:String x:Key="WorkWithFile">Файл</sys:String>
+    <sys:String x:Key="WorkWithFolder">Папки</sys:String>
+    <sys:String x:Key="WorkWithText">Текст</sys:String>
+    <sys:String x:Key="NFilesMatch">{0} файлов соответствуют маске.</sys:String>
+    <sys:String x:Key="IncludeParametersCheckBoxLabel"> Включать граничные параметры операций в результаты</sys:String>
+    <sys:String x:Key="CheckRegisterCheckBoxLabel"> Поиск текста чувствителен к регистру</sys:String>
+    <sys:String x:Key="FormatsComboBoxLabel">Выберите формат, в котором результирующий текст будет записан в файлы: </sys:String>
+    <sys:String x:Key="SettingsHeaderLabel">Настройки</sys:String>
+    <sys:String x:Key="Delimeter">\</sys:String>
+    <sys:String x:Key="SaveButton">Сохранить</sys:String>
+    <sys:String x:Key="SettingsButtonText">Настройки</sys:String>
+    <sys:String x:Key="SettingsButtonToolTip">Показать окно Настроек.</sys:String>
+    <sys:String x:Key="MinimizeButtonToolTip">Минимизировать окно.</sys:String>
+    <sys:String x:Key="AboutButtonToolTip">Read about Multiple Text Editor v.1.1.</sys:String>
+    <sys:String x:Key="CloseButtonToolTip">Закрыть приложение.</sys:String>
+    <sys:String x:Key="WorkWithFoldersButtonText">Папка</sys:String>
+    <sys:String x:Key="WorkWithFoldersButtonToolTip">Выберите для работы с папками.</sys:String>
+    <sys:String x:Key="WorkWithFileButtonText">Файл</sys:String>
+    <sys:String x:Key="WorkWithFileButtonToolTip">Выберите для работы с файлом.</sys:String>
+    <sys:String x:Key="WorkWithTextButtonText">Текст</sys:String>
+    <sys:String x:Key="WorkWithTextButtonToolTip">Выберите для работы непосредственно с текстом.</sys:String>
+    <sys:String x:Key="WorkWithLLabelText">Источник данных</sys:String>
+    <sys:String x:Key="SettingsExpanderToolTip">Кликните чтобы свернуть или развернуть окно Настроек.</sys:String>
+    <sys:String x:Key="IncludeParametersCheckBoxToolTip">Включите этот флажок если Вы хотите, чтобы текст параметров &quot;От&quot; и &quot;До&quot; включался в операцию замены или удаления.</sys:String>
+    <sys:String x:Key="CheckRegisterCheckBoxToolTip">Включите этот флажок, чтобы сделать поиск текста чувствительным к регистру.</sys:String>
+    <sys:String x:Key="FormatsComboBoxToolTip">Выберите формат, в котором следует записывать результирующий текст в файлы.</sys:String>
+    <sys:String x:Key="WorkWithFoldersExpanderToolTip">Кликните чтобы свернуть или развернуть окно.</sys:String>
+    <sys:String x:Key="WorkWithFileExpanderToolTip">Кликните чтобы свернуть или развернуть окно.</sys:String>
+    <sys:String x:Key="WorkWithTextExpanderToolTip">Кликните чтобы свернуть или развернуть окно.</sys:String>
+    <sys:String x:Key="BrowseButtonToolTip">Кликните, чтобы указать путь в диалоговом окне.</sys:String>
+    <sys:String x:Key="BrowseButtonText">Открыть...</sys:String>
+    <sys:String x:Key="SelectSourceLabelHint">Указать путь к файлу:</sys:String>
+    <sys:String x:Key="SelectDestinationLabelHint">Выберите файл назначения:</sys:String>
+    <sys:String x:Key="ReplaceButtonToolTip">Выберите, чтобы выполнить операции замены текста.</sys:String>
+    <sys:String x:Key="ReplaceButtonText">Заменить</sys:String>
+    <sys:String x:Key="AddButtonToolTip">Выберите, чтобы выполнить операции добавления/вставки текста.</sys:String>
+    <sys:String x:Key="AddButtonText">Вставить</sys:String>
+    <sys:String x:Key="RemoveButtonToolTip">Выберите, чтобы выполнить операции удаления текста.</sys:String>
+    <sys:String x:Key="RemoveButtonText">Удалить</sys:String>
+    <sys:String x:Key="TextFieldLabel">Текст:</sys:String>
+    <sys:String x:Key="MadeByLabel">Copyright © Антон Ярков 2010</sys:String>
+    <sys:String x:Key="URLlink">anton.yarkov@gmail.com</sys:String>
+    <sys:String x:Key="ProductName">Multiple Text Editor</sys:String>
+    <sys:String x:Key="ProductVersion">1.1</sys:String>
+    
+    <!-- Commands strings -->
+    
+    <sys:String x:Key="AddAfterCommandName">Вставить текст после ...</sys:String>
+    <sys:String x:Key="AddAfterCommandLabelFirst">После:</sys:String>
+    <sys:String x:Key="AddAfterCommandLabelDescription">Команда вставляет &quot;Текст&quot; после каждого вхождения &quot;После&quot;.</sys:String>
+    
+    <sys:String x:Key="AddAtEndCommandName">Вставить текст в конце</sys:String>    
+    <sys:String x:Key="AddAtEndCommandNameDescription">Команда вставляет &quot;Текст&quot; в конце текстовых данных.</sys:String>
+    
+    <sys:String x:Key="AddAtStartCommandName">Вставить текст в начале</sys:String>    
+    <sys:String x:Key="AddAtStartCommandNameDescription">Команда вставляет &quot;Текст&quot; в начале текстовых данных.</sys:String>
+    
+    <sys:String x:Key="AddBeforeCommandName">Вставить текст перед ...</sys:String>
+    <sys:String x:Key="AddBeforeCommandLabelFirst">Перед:</sys:String>
+    <sys:String x:Key="AddBeforeCommandNameDescription">Команда позволяет вставить &quot;Текст&quot; перед каждым вхождением &quot;Перед&quot;.</sys:String>
+    
+    <sys:String x:Key="AddBetweenCommandName">Вставить текст между ...</sys:String>
+    <sys:String x:Key="AddBetweenCommandLabelFirst">От:</sys:String>
+    <sys:String x:Key="AddBetweenCommandLabelSecond">До (От и До не могут быть одинаковыми):</sys:String>
+    <sys:String x:Key="AddBetweenCommandNameDescription">Команда вставляет &quot;Текст&quot; между &quot;От&quot; и &quot;До&quot; параметрами.</sys:String>
+    
+    <sys:String x:Key="RemoveAfterCommandName">Удалить текст после ...</sys:String>
+    <sys:String x:Key="RemoveAfterCommandLabelFirst">После:</sys:String>
+    <sys:String x:Key="RemoveAfterCommandLabelSecond">Введите текст, количество символов или &lt;все&gt;(чтобы удалить до конца):</sys:String>
+    <sys:String x:Key="RemoveAfterCommandNameDescription">Команда удаляет &quot;Текст&quot; после каждого вхождения &quot;После&quot;.</sys:String>
+    
+    <sys:String x:Key="RemoveAtEndCommandName">Удалить текст в конце ...</sys:String>
+    <sys:String x:Key="RemoveAtEndCommandLabelFirst">Количество символов от конца:</sys:String>
+    <sys:String x:Key="RemoveAtEndCommandNameDescription">Команда удаляет &quot;Текст&quot; в конце текстовых данных.</sys:String>
+    
+    <sys:String x:Key="RemoveAtStartCommandName">Удалить текст в начале ...</sys:String>
+    <sys:String x:Key="RemoveAtStartCommandLabelFirst">Количество символов от начала:</sys:String>
+    <sys:String x:Key="RemoveAtStartCommandNameDescription">Команда удаляет &quot;Текст&quot; в начале текстовых данных.</sys:String>
+    
+    <sys:String x:Key="RemoveBeforeCommandName">Удалить текст перед ...</sys:String>
+    <sys:String x:Key="RemoveBeforeCommandLabelFirst">Перед:</sys:String>
+    <sys:String x:Key="RemoveBeforeCommandLabelSecond">Введите строку, количество символов или &lt;все&gt;(чтобы удалить от начала):</sys:String>
+    <sys:String x:Key="RemoveBeforeCommandNameDescription">Команда удаляет &quot;Текст&quot; перед первым вхождением &quot;Перед&quot;.</sys:String>
+    
+    <sys:String x:Key="RemoveBetweenCommandName">Удалить текст между ...</sys:String>
+    <sys:String x:Key="RemoveBetweenCommandLabelFirst">От:</sys:String>
+    <sys:String x:Key="RemoveBetweenCommandLabelSecond">До (От и До не должны быть одинаковыми):</sys:String>
+    <sys:String x:Key="RemoveBetweenCommandNameDescription">Команда удаляет &quot;Текст&quot; между всеми &quot;От&quot; и &quot;До&quot; параметрами. Чтобы включить граничные параметры в удаление, включите соответствующую опцию в Настройках.</sys:String>
+    
+    <sys:String x:Key="RemoveThatCommandName">Удалить текст ...</sys:String>
+    <sys:String x:Key="RemoveThatCommandNameDescription">Команда удаляет указанный текст из текстовых данных.</sys:String>
+    
+    <sys:String x:Key="ReplaceBetweenCommandName">Заменить текст между ...</sys:String>
+    <sys:String x:Key="ReplaceBetweenCommandLabelFirst">От:</sys:String>
+    <sys:String x:Key="ReplaceBetweenCommandLabelSecond">До (От и До не должны быть одинаковыми):</sys:String>
+    <sys:String x:Key="ReplaceBetweenCommandNameDescription">Команда выполняет замену &quot;Текст&quot; между всеми &quot;От&quot; и &quot;До&quot; параметрами. Чтобы включить граничные параметры в замену, включите соответствующую опцию в Настройках.</sys:String>
+    
+    <sys:String x:Key="ReplaceThatCommandName">Заменить текст ...</sys:String>
+    <sys:String x:Key="ReplaceThatCommandLabelFirst">Текст для замены:</sys:String>
+    <sys:String x:Key="ReplaceThatCommandNameDescription">Команда выполняет замену текста.</sys:String>
+    
+    <!-- Command error -->
+    <sys:String x:Key="TextNotFoundError">Указанный текст не найден!</sys:String>
+    
+    <!-- Tags -->
+    <sys:String x:Key="TagAllSmall">&lt;все&gt;</sys:String>
+    <sys:String x:Key="TagAllBig">&lt;ВСЕ&gt;</sys:String>
+    <sys:String x:Key="TagAllMiddle">&lt;Все&gt;</sys:String>
+
+</ResourceDictionary>

@@ -1,0 +1,20 @@
+﻿<Window
+    xmlns:local="clr-namespace:MultipleTextEditor"
+    x:Class="MultipleTextEditor.ProgressWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Grid.IsSharedSizeScope="False"
+    VerticalAlignment="Stretch"
+    HorizontalAlignment="Center"
+    HorizontalContentAlignment="Center"
+    WindowStartupLocation="CenterScreen"
+    WindowState="Normal" 
+    Visibility="Visible"
+    AllowsTransparency="True"
+    WindowStyle="None"
+    Background="Transparent"
+    SnapsToDevicePixels="True">
+    <Grid>
+        <local:CircularProgressBar/>
+    </Grid>
+</Window>
