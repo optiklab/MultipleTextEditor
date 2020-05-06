@@ -5,4 +5,4 @@ Multifunctional string replacer featured by cool UI. Multiple Text Editor applic
 
 See screenshots https://github.com/optiklab/MultipleTextEditor/wiki
 
-!!Project is archived as being outdated for years.
+[DEPRECATED] Project is archived as being outdated for years.
